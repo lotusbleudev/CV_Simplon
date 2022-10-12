@@ -25,13 +25,13 @@ const CvRender = () => {
     {
       name:"Qui suis-je?",
       content: <div>
-        <p>Jeune <span style={{color:"#9AE6B4"}}>apprenti developpeur web</span> depuis maintenant plus d’un an,
+        <p style={{textIndent:"0.7em"}}>Jeune <span style={{color:"#9AE6B4"}}>apprenti developpeur web</span> depuis maintenant plus d’un an,
         j’étais, avant ça,  dans le <span style={{color:"#FF63C3"}}>commerce</span> en CDI a Darty mais apres deux ans de loyaux services
         j’ai décidé de me <span style={{color:"#9AE6B4"}}>réorienter</span> dans le developpement, bien plus stimulant et plus adapté a mon mode vie
         étant scotché a l’ordinateur depuis mon plus jeune age.</p>
-        <p>C’est avec <span style={{color:"#FF63C3"}}>Unity</span> que j’ai commencer à coder tout d’abord dans l’optique de me lancer dans le <span style={{color:"#9AE6B4"}}>jeu vidéo</span>,
+        <p style={{textIndent:"0.7em"}}>C’est avec <span style={{color:"#FF63C3"}}>Unity</span> que j’ai commencer à coder tout d’abord dans l’optique de me lancer dans le <span style={{color:"#9AE6B4"}}>jeu vidéo</span>,
         un domaine passionnant mais également très compliqué de part le manque d’opportunités pro.</p>
-        <p>Voila pourquoi depuis plus d’un an je me forme dans le <span style={{color:"#FF63C3"}}>web</span>, dans lequel je retrouve le <span style={{color:"#9AE6B4"}}>plaisir</span> de <span style={{color:"#FF63C3"}}>coder</span> dans un
+        <p style={{textIndent:"0.7em"}}>Voila pourquoi depuis plus d’un an je me forme dans le <span style={{color:"#FF63C3"}}>web</span>, dans lequel je retrouve le <span style={{color:"#9AE6B4"}}>plaisir</span> de <span style={{color:"#FF63C3"}}>coder</span> dans un
         milieu plus stable et bien plus prometteur.</p>
       </div>
     },

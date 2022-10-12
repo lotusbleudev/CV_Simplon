@@ -3,16 +3,24 @@ import styled from "styled-components";
 
 const Card = styled.div`
     width: 32rem;
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 0.4rem;
     border: solid 1px #c3c1cb;
     margin-bottom: 0.8em;
+    padding-left: 1em;
+    text-align: center;
 
     @media (max-width: 570px) {
         width: 25rem;
+      }
+    
+      @media (max-width: 321px) {
+        width: 15rem;
+        flex-direction: column;
+        padding-bottom: 1em;
+        justify-content: center;
       }
 `
 
