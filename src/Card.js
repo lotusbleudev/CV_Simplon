@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Card = styled.div`
     width: 32rem;
-    max-width: 25rem;
     height: 50px;
     display: flex;
     align-items: center;
@@ -11,6 +10,10 @@ const Card = styled.div`
     border-radius: 0.4rem;
     border: solid 1px #c3c1cb;
     margin-bottom: 0.8em;
+
+    @media (max-width: 570px) {
+        width: 25rem;
+      }
 `
 
 const YearBadge = styled.div`
