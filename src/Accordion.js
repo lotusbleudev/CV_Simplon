@@ -8,6 +8,9 @@ const AccordionContainer = styled.div`
     background-color: #313134;
     color: #f9f9f9;
     max-width: 90vw;
+    @media (max-width: 570px) {
+        background-color: white;
+      }
 `;
 
 const Inner = styled.div`
