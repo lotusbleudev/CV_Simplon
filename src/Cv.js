@@ -60,7 +60,7 @@ const CvRender = () => {
     {
       name:"Hobby",
       content: <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}><span className="material-icons" style={{color:"#9AE6B4"}}>tag_faces
-      </span><p style={{marginRight:"0.5em"}}>Vive les jeux vidéos</p> <span className="material-icons" style={{color:"#FF63C3", marginLeft:"0.3em"}}>videogame_asset
+      </span><p style={{marginRight:"0.5em", marginLeft:"0.4em"}}>Vive les jeux vidéos</p> <span className="material-icons" style={{color:"#FF63C3"}}>videogame_asset
       </span></div>
     }
   ]
