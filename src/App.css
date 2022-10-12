@@ -13,3 +13,17 @@ button{
   border: none;
   outline: none;
 }
+
+.moonIcon{
+  width: 30px;
+  animation: Icon-spin infinite 10s linear;
+}
+
+@keyframes Icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

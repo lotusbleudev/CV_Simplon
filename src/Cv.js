@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 import { AccordionContainer, AccordionContent } from './Accordion';
 import {Card, JobBadge, SchoolYearBadge, YearBadge} from './Card';
+import moonIcon from './images/moon-dark.png'
 
 const Cv = ({items}) => {
   const [active, setActive] = useState();
@@ -66,7 +67,7 @@ const CvRender = () => {
 
   return (
     <div style={{width:"100vw", minHeight:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", backgroundColor:"#202023"}}>
-      <h1 style={{color:"#f9f9f9"}}>Joris</h1>
+      <h1 style={{color:"#f9f9f9", fontSize:"3em", letterSpacing:"3px"}}>J<span><img src={moonIcon} className="moonIcon"/></span>ris</h1>
       <Cv items={items} />
       <p style={{color:'#f9f9f9'}}>github</p>
     </div>
