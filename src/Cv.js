@@ -27,7 +27,7 @@ const CvRender = () => {
       name:"Qui suis-je?",
       content: <div>
         <p style={{textIndent:"0.7em"}}>Jeune <span style={{color:"#9AE6B4"}}>apprenti developpeur web</span> depuis maintenant plus d’un an,
-        j’étais, avant ça,  dans le <span style={{color:"#FF63C3"}}>commerce</span> en CDI a Darty mais apres deux ans de loyaux services
+        j’étais, avant ça,  dans le <span style={{color:"#FF63C3"}}>commerce</span> en CDI a Darty. Mais apres deux ans de loyaux services
         j’ai décidé de me <span style={{color:"#9AE6B4"}}>réorienter</span> dans le developpement, bien plus stimulant et plus adapté a mon mode vie
         étant scotché a l’ordinateur depuis mon plus jeune age.</p>
         <p style={{textIndent:"0.7em"}}>C’est avec <span style={{color:"#FF63C3"}}>Unity</span> que j’ai commencer à coder tout d’abord dans l’optique de me lancer dans le <span style={{color:"#9AE6B4"}}>jeu vidéo</span>,
@@ -53,7 +53,7 @@ const CvRender = () => {
         <Card><p>Assistant Chef Produit</p> <div style={{display:"flex"}}><JobBadge>Motul</JobBadge><YearBadge>2018</YearBadge></div></Card>
         <Card><p>Vendeur Polyvalent</p> <div style={{display:"flex"}}><JobBadge>Darty</JobBadge><YearBadge>2018 -  2020</YearBadge></div></Card>
         <Card><p>Intégrateur Web</p> <div style={{display:"flex"}}><JobBadge>Darius</JobBadge><YearBadge>2021</YearBadge></div></Card>
-        <Card><p>Opérateur de Saisie</p> <div style={{display:"flex"}}><JobBadge>Pharma</JobBadge><YearBadge>2022</YearBadge></div></Card>
+        <Card><p>Opérateur de Saisie</p> <div style={{display:"flex"}}><JobBadge>Ideal Santé</JobBadge><YearBadge>2022</YearBadge></div></Card>
         
         </div>
     },
