@@ -39,9 +39,9 @@ const CvRender = () => {
       name:"Formations",
       content: <div>
         <Card><p>Bac Scientifique</p> <div style={{display:"flex"}}><JobBadge>L'Esperance</JobBadge><SchoolYearBadge>2016</SchoolYearBadge></div></Card>
-        <Card><p>Bachelor Commerce Marketing</p> <div style={{display:"flex"}}><JobBadge>Ipac</JobBadge><SchoolYearBadge>2017 - 2019</SchoolYearBadge></div></Card>
-        <Card><p>Certification Unity Jeux Vidéo</p> <div style={{display:"flex"}}><JobBadge>3W Academy</JobBadge><SchoolYearBadge>2021</SchoolYearBadge></div></Card>
-        <Card><p>Titre Developpement Web</p> <div style={{display:"flex"}}><JobBadge>Webforce3</JobBadge><SchoolYearBadge>2021 - 2022</SchoolYearBadge></div></Card>
+        <Card><p>Bachelor Commerce</p> <div style={{display:"flex"}}><JobBadge>Ipac</JobBadge><SchoolYearBadge>2017 - 2019</SchoolYearBadge></div></Card>
+        <Card><p>Certification Unity</p> <div style={{display:"flex"}}><JobBadge>3W Academy</JobBadge><SchoolYearBadge>2020</SchoolYearBadge></div></Card>
+        <Card><p>Intro Developpement Web</p> <div style={{display:"flex"}}><JobBadge>Webforce3</JobBadge><SchoolYearBadge>2021</SchoolYearBadge></div></Card>
         <Card><p>Developpeur web et web mobile</p> <div style={{display:"flex"}}><JobBadge>Simplon</JobBadge><SchoolYearBadge>2022</SchoolYearBadge></div></Card>
 
       </div>

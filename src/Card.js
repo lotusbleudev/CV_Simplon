@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Card = styled.div`
     width: 32rem;
+    max-width: 25rem;
     height: 50px;
     display: flex;
     align-items: center;
