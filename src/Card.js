@@ -2,22 +2,29 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-    width: 32rem;
+    width: 15rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border-radius: 0.4rem;
     border: solid 1px #c3c1cb;
+    text-align: center;    
+    padding: 0 1em 1em 1em;
     margin-bottom: 0.8em;
-    padding-left: 1em;
-    text-align: center;
-    
-      @media (max-width: 570px) {
-        width: 15rem;
-        flex-direction: column;
-        padding-bottom: 1em;
-        justify-content: center;
+
+    @media (min-width: 425px) {
+        padding-bottom: 0;
+        width: 20rem;
+        flex-direction: row;
+        justify-content: space-between;
       }
+    
+    @media (min-width: 768px) {
+        width: 32rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 `
 
 const YearBadge = styled.div`
@@ -25,7 +32,7 @@ const YearBadge = styled.div`
     color: #9AE6B4;
     padding: 0.4em;
     border-radius: 0.4em;
-    margin-right: 1em;
+    
 `
 
 const SchoolYearBadge = styled.div`
@@ -33,7 +40,7 @@ const SchoolYearBadge = styled.div`
     color: #FF63C3;
     padding: 0.4em;
     border-radius: 0.4em;
-    margin-right: 1em;
+    
 `
 
 const JobBadge = styled.div`
