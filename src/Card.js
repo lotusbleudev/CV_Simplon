@@ -11,12 +11,8 @@ const Card = styled.div`
     margin-bottom: 0.8em;
     padding-left: 1em;
     text-align: center;
-
-    @media (max-width: 570px) {
-        width: 25rem;
-      }
     
-      @media (max-width: 321px) {
+      @media (max-width: 570px) {
         width: 15rem;
         flex-direction: column;
         padding-bottom: 1em;
