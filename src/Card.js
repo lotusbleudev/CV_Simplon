@@ -19,11 +19,13 @@ const Card = styled.div`
         flex-direction: row;
         justify-content: space-between;
       }
+
+    @media (min-width: 500px) {
+    width: 26rem;
+    }
     
     @media (min-width: 768px) {
         width: 32rem;
-        flex-direction: row;
-        justify-content: space-between;
     }
 `
 
