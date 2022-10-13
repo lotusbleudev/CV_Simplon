@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import { AccordionContainer, AccordionContent } from './Accordion';
 import {Card, JobBadge, SchoolYearBadge, YearBadge} from './Card';
 import moonIcon from './images/moon-dark.png'
+import { FaGithub } from 'react-icons/fa'
 
 const Cv = ({items}) => {
   const [active, setActive] = useState();
@@ -69,7 +70,10 @@ const CvRender = () => {
     <div style={{width:"100vw", minHeight:"100vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", backgroundColor:"#202023"}}>
       <h1 style={{color:"#f9f9f9", fontSize:"3em", letterSpacing:"3px"}}>J<span><img src={moonIcon} className="moonIcon"/></span>ris</h1>
       <Cv items={items} />
-      <p style={{color:'#f9f9f9'}}>github</p>
+      <div style={{display:"flex"}}>
+        <FaGithub style={{margin:"1.1em 0.3em", color:"#f9f9f9"}}/>
+        <p style={{color:"#f9f9f9"}}>Repo github <span><a target="_blank" href='https://github.com/lotusbleudev/CV_Simplon' style={{textDecoration:"underline", color:"#f9f9f9"}}>ici</a></span></p>  
+      </div>
     </div>
   );
 };
