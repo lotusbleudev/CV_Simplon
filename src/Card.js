@@ -10,10 +10,11 @@ const Card = styled.div`
     border-radius: 0.4rem;
     border: solid 1px #c3c1cb;
     text-align: center;    
-    padding: 0 1em 1em 1em;
+    padding: 0 0.3em 1em 1em;
     margin-bottom: 0.8em;
 
     @media (min-width: 425px) {
+        padding-left: 1em;
         padding-bottom: 0;
         width: 20rem;
         flex-direction: row;
